@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { EventsProvider } from './contexts/eventsContext';
+import { DynamicPage } from "./components/DynamicPage/DynamicPage";
+import { Layout } from './components/Layout/Layout';
 
-function App() {
+export const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <EventsProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<p>This is your home page</p>} />
+            <Route path=":item" element={<DynamicPage />} />
+          </Route>
+        </Routes>
+      </Router>
+    </EventsProvider>
+
   );
 }
-
-export default App;

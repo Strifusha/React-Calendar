@@ -1,0 +1,67 @@
+.event-modal-container {
+  display: flex;
+  flex-direction: column;
+  background: var(--fc-button-bg-color);
+  width: 200px;
+  padding: 5px 15px;
+  z-index: 100; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.cross-icon-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.inputs-container input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.inputs-container label {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  font-weight: bold;
+  color: var(--main-grey);
+}
+
+.modal-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  background-color: var(--fc-button-bg-color);
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  color: var(--main-red);
+}
+
+.error-message {
+  color: var(--main-red);
+  font-size: 12px;
+}

@@ -1,0 +1,10 @@
+.layout-container {
+  display: flex;
+  background-color: #F0F0F7;
+}
+
+.outlet-container {
+  margin: 50px;
+  padding: 20px;
+  background-color: #FFF;
+}

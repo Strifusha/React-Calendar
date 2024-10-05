@@ -1,0 +1,58 @@
+.fc-daygrid-day-number {
+  font-size: 14px;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
+.fc .fc-daygrid-day {
+  border: 1px solid var(--fc-button-border-color);
+}
+
+.event-title {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.fc-day:hover {
+  background-color: #e9ecef;
+}
+
+.fc-toolbar-title {
+  color: #6e7079;
+  font-weight: 300;
+}
+
+.fc-col-header-cell {
+  font-size: 14px;
+  color: #6c757d;
+  background-color: #F5F6FA;
+}
+
+.fc .fc-col-header-cell {
+  border: none;
+  padding: 10px 0;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+  color: var(--fc-button-active-text-color);
+  border-color: var(--fc-button-active-border-color);
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active:focus {
+  box-shadow: none;
+}
+
+.fc-direction-ltr .fc-timegrid-slot-label-frame {
+  text-align: center;
+}
+
+.fc .fc-day.fc-day-today {
+  background-color: var(--main-grey);
+}
+
+
+
