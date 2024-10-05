@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Calendar/static/css/main.fd743316.css",
+    "main.css": "/React-Calendar/static/css/main.dbb7e819.css",
     "main.js": "/React-Calendar/static/js/main.5e874a18.js",
     "static/media/settings-icon.svg": "/React-Calendar/static/media/settings-icon.c78a28805ee48910230d0056f733ecbe.svg",
     "static/media/cross-icon.svg": "/React-Calendar/static/media/cross-icon.0ea4eee56c89f066667f6d4bc2cf3d07.svg",
@@ -8,11 +8,11 @@
     "static/media/notification-icon.svg": "/React-Calendar/static/media/notification-icon.11adc7b6c75c897cb4bbe65fbc1a3cb9.svg",
     "index.html": "/React-Calendar/index.html",
     "static/media/search-icon.svg": "/React-Calendar/static/media/search-icon.aa58904ba67757220d24545b21a52e61.svg",
-    "main.fd743316.css.map": "/React-Calendar/static/css/main.fd743316.css.map",
+    "main.dbb7e819.css.map": "/React-Calendar/static/css/main.dbb7e819.css.map",
     "main.5e874a18.js.map": "/React-Calendar/static/js/main.5e874a18.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd743316.css",
+    "static/css/main.dbb7e819.css",
     "static/js/main.5e874a18.js"
   ]
 }
