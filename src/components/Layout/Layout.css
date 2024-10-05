@@ -1,6 +1,7 @@
 .layout-container {
   display: flex;
   background-color: #F0F0F7;
+  min-width: 760px;
 }
 
 .outlet-container {
